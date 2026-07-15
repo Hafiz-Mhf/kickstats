@@ -1,32 +1,17 @@
-# React + TypeScript + Vite
+# ⚽ KickStats — Football Team Season Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A real-time football analytics dashboard powered by football-data.org.
 
-Currently, two official plugins are available:
+## Features
+- 📈 Season Form | ⚽ Goals Timeline | 🏠 Home / Away
+- 🏆 Top Scorers | 👥 Squad Stats | ⚔️ Head-to-Head
+- 📅 Fixtures | 🔄 Transfers (Summer 2025)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+React 19 · TypeScript · Vite 6 · Tailwind CSS v4 · React Query v5 · Recharts
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Getting Started
+1. Get a free API key at [football-data.org/client/register](https://www.football-data.org/client/register)
+2. `npm install`
+3. `npm run dev`
+4. Enter your API key in the onboarding popup, pick a league and team

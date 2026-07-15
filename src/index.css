@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --color-bg: #0f1117;
+  --color-surface: #1a1d27;
+  --color-surface-2: #222636;
+  --color-accent: #00ff87;
+  --color-accent-dim: rgba(0, 255, 135, 0.12);
+  --color-text: #e8eaf0;
+  --color-text-muted: #6b7280;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+  --color-draw: #f59e0b;
+  --font-ui: 'Inter', sans-serif;
+  --font-stat: 'Outfit', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-ui);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-surface-2); border-radius: 3px; }
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.stat-number {
+  font-family: var(--font-stat);
+  font-weight: 700;
+}
+
+.badge-win   { background: rgba(34,197,94,0.15);  color: #22c55e; }
+.badge-draw  { background: rgba(245,158,11,0.15); color: #f59e0b; }
+.badge-loss  { background: rgba(239,68,68,0.15);  color: #ef4444; }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: var(--font-stat);
+}

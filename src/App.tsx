@@ -7,7 +7,7 @@ import { SeasonForm } from './components/panels/SeasonForm'
 import { GoalsTimeline } from './components/panels/GoalsTimeline'
 import { HomeAway } from './components/panels/HomeAway'
 import { TopScorers } from './components/panels/TopScorers'
-import { SquadStats } from './components/panels/SquadStats'
+import { LeagueTable } from './components/panels/LeagueTable'
 import { HeadToHead } from './components/panels/HeadToHead'
 import { Fixtures } from './components/panels/Fixtures'
 import { Transfers } from './components/panels/Transfers'
@@ -29,7 +29,7 @@ function AppInner() {
             <Route path="/goals"     element={<GoalsTimeline />} />
             <Route path="/homeaway"  element={<HomeAway />} />
             <Route path="/scorers"   element={<TopScorers />} />
-            <Route path="/squad"     element={<SquadStats />} />
+            <Route path="/table"     element={<LeagueTable />} />
             <Route path="/h2h"       element={<HeadToHead />} />
             <Route path="/fixtures"  element={<Fixtures />} />
             <Route path="/transfers" element={<Transfers />} />

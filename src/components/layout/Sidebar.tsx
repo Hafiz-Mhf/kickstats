@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { TrendingUp, Target, Home, Trophy, Users, Swords, Calendar, ArrowLeftRight } from 'lucide-react'
+import { TrendingUp, Target, Home, Trophy, ListOrdered, Swords, Calendar, ArrowLeftRight } from 'lucide-react'
 import { useTeam } from '../../context/TeamContext'
 
 const NAV_ITEMS = [
@@ -7,7 +7,7 @@ const NAV_ITEMS = [
   { path: '/goals',     icon: Target,         label: 'Goals' },
   { path: '/homeaway',  icon: Home,           label: 'Home / Away' },
   { path: '/scorers',   icon: Trophy,         label: 'Top Scorers' },
-  { path: '/squad',     icon: Users,          label: 'Squad Stats' },
+  { path: '/table',     icon: ListOrdered,    label: 'League Table' },
   { path: '/h2h',       icon: Swords,         label: 'Head-to-Head' },
   { path: '/fixtures',  icon: Calendar,       label: 'Fixtures' },
   { path: '/transfers', icon: ArrowLeftRight, label: 'Transfers' },

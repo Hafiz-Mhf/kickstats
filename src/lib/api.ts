@@ -48,5 +48,8 @@ export function createApiClient(apiKey: string) {
       )
       return data.teams
     },
+    async getStandings(competitionId: number, season: number): Promise<any> {
+      return apiFetch(`/competitions/${competitionId}/standings?season=${season}`, apiKey)
+    },
   }
 }

@@ -1,6 +1,6 @@
 import type { TeamInfo, Match, Scorer, Transfer } from '../types'
 
-const BASE = 'https://api.football-data.org/v4'
+const BASE = '/api'
 
 async function apiFetch<T>(path: string, apiKey: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`, {

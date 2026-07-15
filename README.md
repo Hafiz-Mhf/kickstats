@@ -12,7 +12,7 @@ KickStats organizes season data into **8 interactive panels** accessible through
 *   **⚽ Goals Timeline:** Renders a grouped bar chart displaying Goals Scored (GF) vs. Goals Conceded (GA) for each finished match.
 *   **🏠 Home vs. Away:** Displays wins, draws, losses, goals, and games played splits using custom donut charts to contrast home and away performances.
 *   **🏆 Top Scorers:** Displays a league-wide goalscorer leaderboard with a quick toggle to isolate goals scored by players of the selected team.
-*   **👥 Squad Stats:** Shows a detailed, sortable table of squad members (appearances, goals, assists, yellow cards, red cards) with a clean empty state fallback.
+*   **🏆 League Table:** Displays the full competition standings table, highlighting the selected team dynamically with an accent brand color to track promotion, relegation, and title races.
 *   **⚔️ Head-to-Head:** Compares history against any opponent in the league, showing overall records (Wins, Draws, Losses) and individual match scorelines.
 *   **📅 Fixtures:** Lists upcoming fixtures showing dates, times, home/away status, and a 5-match form guide.
 *   **🔄 Transfers:** Tracks the Summer 2025 transfer window, categorizing transactions into Arrivals (Green) and Departures (Red) with transfer fees.

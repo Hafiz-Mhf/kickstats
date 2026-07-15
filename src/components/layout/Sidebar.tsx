@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { TrendingUp, Target, Home, Trophy, ListOrdered, Swords, Calendar, ArrowLeftRight } from 'lucide-react'
+import { TrendingUp, Target, Home, Trophy, ListOrdered, Swords, Calendar, Newspaper } from 'lucide-react'
 import { useTeam } from '../../context/TeamContext'
 
 const NAV_ITEMS = [
@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { path: '/table',     icon: ListOrdered,    label: 'League Table' },
   { path: '/h2h',       icon: Swords,         label: 'Head-to-Head' },
   { path: '/fixtures',  icon: Calendar,       label: 'Fixtures' },
-  { path: '/transfers', icon: ArrowLeftRight, label: 'Transfers' },
+  { path: '/news',      icon: Newspaper,      label: 'Latest News' },
 ]
 
 export function Sidebar() {

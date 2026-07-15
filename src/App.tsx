@@ -10,7 +10,7 @@ import { TopScorers } from './components/panels/TopScorers'
 import { LeagueTable } from './components/panels/LeagueTable'
 import { HeadToHead } from './components/panels/HeadToHead'
 import { Fixtures } from './components/panels/Fixtures'
-import { Transfers } from './components/panels/Transfers'
+import { NewsFeed } from './components/panels/NewsFeed'
 
 function AppInner() {
   const { apiKey, teamId } = useTeam()
@@ -32,7 +32,7 @@ function AppInner() {
             <Route path="/table"     element={<LeagueTable />} />
             <Route path="/h2h"       element={<HeadToHead />} />
             <Route path="/fixtures"  element={<Fixtures />} />
-            <Route path="/transfers" element={<Transfers />} />
+            <Route path="/news"      element={<NewsFeed />} />
           </Routes>
         </main>
       </div>

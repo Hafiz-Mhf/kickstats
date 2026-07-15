@@ -11,6 +11,11 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
+      '/news-api': {
+        target: 'http://feeds.bbci.co.uk',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/news-api/, ''),
+      },
     },
   },
 })
